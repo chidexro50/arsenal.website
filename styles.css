@@ -436,4 +436,96 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
+.stats {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.stat {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat .num {
+  font-size: 2.5rem;
+  color: #db0007;
+  font-weight: bold;
+}
+
+.stat p {
+  color: #333;
+}
+/* ========================= */
+/* 🧠 Quiz Section Styles */
+/* ========================= */
+.quiz {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#quiz-container {
+  background: #222;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#question {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+#options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  background: #db0007;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#options button:hover {
+  background: #ff1c1c;
+}
+
+#next-btn {
+  margin-top: 10px;
+  background: #006400;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#next-btn:hover {
+  background: #00a000;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: gold;
+}
+
 
